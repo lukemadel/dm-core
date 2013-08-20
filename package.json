@@ -1,0 +1,24 @@
+{
+  "name": "mill-core",
+  "version": "0.0.0",
+  "description": "Core module for plugins",
+  "main": "./lib/core.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/milljs/mill-core.git"
+  },
+  "keywords": [
+    "milljs"
+  ],
+  "author": "Luke Madel",
+  "dependencies": {
+    "debug": "latest"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/milljs/mill-core/issues"
+  }
+}
