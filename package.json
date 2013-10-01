@@ -1,6 +1,6 @@
 {
-  "name": "mill-core",
-  "version": "0.0.0",
+  "name": "dm-core",
+  "version": "0.0.1",
   "description": "Core module for plugins",
   "main": "./lib/core.js",
   "scripts": {
@@ -8,17 +8,19 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/milljs/mill-core.git"
+    "url": "https://github.com/datmac/dm-core.git"
   },
   "keywords": [
-    "milljs"
+    "datmac"
   ],
   "author": "Luke Madel",
   "dependencies": {
-    "debug": "latest"
+    "debug": "latest",
+    "optimist": "~0.6.0",
+    "formatik": "~1.1.1"
   },
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/milljs/mill-core/issues"
+    "url": "https://github.com/datmac/dm-core/issues"
   }
 }
